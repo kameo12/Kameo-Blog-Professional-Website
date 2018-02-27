@@ -7,18 +7,64 @@
   <img> <img src= "img/bears_topekazoo.jpg" max width="100%" max-height"85%" alt="Bears in tree at Topeka Zoo.">
 
 <body>
-  <nav>
- <ul>
-    <li> <a href="default"> Home </a> </li>
-    <li> <a href="about_me.html" target="_blank"> About Me </a> </li>
-    <li> <a href="resume.html" target="_blank"> Resume </a> </li>
-    <li> <a href="blog.html" target="_blank"> Blog </a> </li>
-    <li> <a href="photography.html" target="_blank"> Photogrpahy </a> </li>
-    <li> <a href="zoo_hopping.html" target="_blank"> Zoo Hopping </a> </li>
-    <li> <a href="kameo_creates.html" target="_blank"> Kameo Creates </a> </li>
-    <li> <a href="shop.html" target="_blank"> Shop </a> </li>
-</ul>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Fixed top</a>
+    <a class="navbar" href="index.html"> Home </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="about_me" href="about_me.html"> About Me </a>
+        </li>
+        <li class="nav-item">
+          <a class="resume" href="resume.html"> Resume </a>
+        </li>
+        <li class="nav-item">
+          <a class="blog" href="blog.html"> Blog </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="photography.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Photography
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="photography.html">Session 1</a>
+              <a class="dropdown-item" href="photography.html">Session 2</a>
+              <div class="dropdown-divider"> </div>
+          </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="zoo_hopping.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Zoo Hopping
+                <a class="dropdown-item" href="zoo_hopping.html"> Trip 1 </a>
+                <a class="dropdown-item" href="zoo_hopping.html"> Trip 2 </a>
+              </a>
+              <li class="nav-item">
+                <a class="kameocreates" href="kameo_creates.html"> Kameo Creates </a>
+              </li>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-divider"> </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="shop.html">Shop</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
   </nav>
+
+
+
+
+
 <h1> Kameo Bingham </h1>
   <p> Who is Kameo? </p>
 

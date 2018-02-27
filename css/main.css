@@ -1,7 +1,5 @@
-/* Formatting of navigation bar */
-.main-navigation ul {
-    list-style-type: none;
-  }
+/* Formatting of navigation bar
+
 
 
 li{
@@ -13,6 +11,7 @@ li{
 a {
   padding: 12px;
 }
+*/
 
 /* Change the link color to #808080 (grey) on hover */
 li a:hover {
