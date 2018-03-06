@@ -1,8 +1,4 @@
 /* Formatting of navigation bar */
-.main-navigation ul {
-    list-style-type: none;
-  }
-
 
 li{
   display: flex;
@@ -14,20 +10,17 @@ a {
   padding: 12px;
 }
 
-/* Change the link color to #808080 (grey) on hover */
+/* Change the link color to #91FFDD (light teal) on hover */
 li a:hover {
     background-color: #91FFDD;
 }
 
-/* add once there is place to link headings in navigation bar
 .active {
     background-color: #05DB84;
 }
-*/
-
 
 /*formatting body of home page*/
-
 p{
   color: #3CFFC3;
+   background-color: grey;
 }
