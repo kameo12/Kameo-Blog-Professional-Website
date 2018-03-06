@@ -1,4 +1,11 @@
 /* Formatting of navigation bar */
+<<<<<<< HEAD
+=======
+.main-navigation ul {
+    list-style-type: none;
+  }
+
+>>>>>>> 8e38087433835ab9757378c51c12e9cc575a5e07
 
 li{
   display: flex;
