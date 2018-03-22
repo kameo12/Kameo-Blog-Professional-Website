@@ -2,7 +2,7 @@
 
 li{
   display: flex;
-  border: 3px solid #92D6FB;
+  border: 3px solid #b3b3cc;
   background-color: #3CFFC3;
 }
 
@@ -12,7 +12,7 @@ a {
 
 /* Change the link color to #91FFDD (light teal) on hover */
 li a:hover {
-    background-color: #91FFDD;
+    background-color: #8585ad;
 }
 
 .active {
@@ -21,10 +21,10 @@ li a:hover {
 
 /*formatting body of home page*/
 p{
-  color: #3CFFC3;
-   background-color: grey;
+  color: #666699;
 }
 
+/*image of kameo laughing*/
 
 .center {
     display: block;
@@ -38,4 +38,34 @@ p{
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+}
+
+/* adding flexbox horizontally across*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.middle-info {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-story {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
 }
