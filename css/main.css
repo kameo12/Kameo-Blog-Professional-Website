@@ -69,3 +69,7 @@ p{
   display: flex;
   justify-content: space-around;
 }
+
+.footer {
+    display: block;
+}
