@@ -1,6 +1,7 @@
 /* Formatting of navigation bar */
 nav{
   display: flex;
+  flex-direction: column;
 }
 
 li{
@@ -31,9 +32,9 @@ p{
 
 .center {
     display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .h1{
@@ -55,12 +56,12 @@ p{
   color: #fff;
   background-color: #5995DA;  /* Blue */
   padding: 20px 0;
-  display: flex;
   justify-content: center;
+  display:flex;
 }
 
 .image {
-  width: 900px;
+  width: 60%;
   display: flex;
   justify-content: space-around;
 }
@@ -71,16 +72,16 @@ p{
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
+  width: 30%;
 }
 
 /* Trying to move want notification to next row, not working yet /*/
 .email {
   color: #fff;
   background-color: #5995DA;  /* Blue */
-  padding: 20px 0;
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -106,10 +107,4 @@ p{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-}
-
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
