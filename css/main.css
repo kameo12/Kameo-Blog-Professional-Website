@@ -1,4 +1,4 @@
-/* Formatting of navigation bar */
+/* Formatting of navigation bar on top */
 nav{
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ p{
   align-content: center;
 }
 
-/* adding flexbox horizontally across*/
+/* adding flexbox horizontally across -3 sections*/
 
 * {
   margin: 0;
@@ -75,7 +75,7 @@ p{
   width: 30%;
 }
 
-/* Trying to move want notification to next row, not working yet /*/
+/* want notification styling /*/
 .email {
   color: #fff;
   background-color: #5995DA;  /* Blue */
