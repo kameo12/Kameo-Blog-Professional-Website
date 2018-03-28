@@ -84,6 +84,7 @@ p{
   padding: 20px 0;
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){ body {
         background-color: #ff9966;
