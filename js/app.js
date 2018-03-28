@@ -1,3 +1,3 @@
 $('.image').on('click keypress', function(){
-//do stuff when the element is clicked or when a key is pressed
+//enlarge image when the element is clicked or when a key is pressed
 });
