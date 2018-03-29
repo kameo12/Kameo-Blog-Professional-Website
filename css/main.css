@@ -96,7 +96,24 @@ img {
     flex-direction: column;
     min-height: : 550px;}
 
-  
+  middle-image{
+    display:flex;
+    flex-direction: column;
+    min-height: : 550px;}
+
+
+image{
+  display:flex;
+  flex-direction: column;
+  min-height: : 550px;}
+
+
+my-story {
+display:flex;
+flex-direction: column;
+min-height: : 550px;}
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
