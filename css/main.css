@@ -28,15 +28,15 @@ p{
   color: #666699;
 }
 
-/*image of kameo laughing*/
+/*CSS formatting of image of bears in a tree*/
 
 .center {
     display: block;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* CSS formatting of header 1-Kameo Bingham */
 .h1{
   display: block;
   margin-left: auto;
@@ -44,14 +44,14 @@ p{
   align-content: center;
 }
 
-/* adding flexbox horizontally across -3 sections*/
+/*  adding flexbox horizontally across the sections*/
 
 * {
   margin: 0;
   padding: auto;
   box-sizing: border-box;
 }
-
+/* CSS formatting of middle section inclduing products and services, image and my story*/
 .middle-info {
   color: #fff;
   background-color: #5995DA;  /* Blue */
@@ -96,22 +96,33 @@ img {
     flex-direction: column;
     min-height: : 550px;}
 
-      .middle-image{
-        display:flex;
-        flex-direction: column;
-        min-height: : 550px;}
+    .middle-info{
+      display:flex;
+      min-height: : 550px;}
 
         .image{
           display:flex;
-          flex-direction: column;
-          min-height: : 550px;}
+          min-height: : 550px;
 
     .my-story {
     display:flex;
-    flex-direction: column;
     min-height: : 550px;}
     }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-}
+  .middle-info{
+    display:flex;
+    flex-direction: column;
+    min-height: : 768px;}
+
+      .image{
+        display:flex;
+        flex-direction: column;
+        min-height: : 768px;}
+
+  .my-story {
+  display:flex;
+  flex-direction: column;
+  min-height: : 768px;}
+  }
