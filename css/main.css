@@ -75,7 +75,13 @@ p{
   width: 30%;
 }
 
-/* want notification styling /*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* want notification styling */
 .email {
   color: #fff;
   background-color: #5995DA;  /* Blue */
@@ -83,20 +89,15 @@ p{
   justify-content: center;
   padding: 20px 0;
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
-  div{
+  nav{
     display:flex;
     flex-direction: column;
-    align-items: left;
-    min-height: : 550px)
-    }}
+    min-height: : 550px;}
 
+  
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-}
-nav{  display:flex;
-  flex-direction: column;
-  min-height: 769px)}
+}}
