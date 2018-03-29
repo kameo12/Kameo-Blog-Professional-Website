@@ -94,19 +94,31 @@ img {
   .nav{
     display:flex;
     flex-direction: column;
-    min-height: : 550px;}
+    min-height: : 550px;
+    justify-content: space-between;
+
+}
 
     .middle-info{
       display:flex;
-      min-height: : 550px;}
+      min-height: : 550px;
+      justify-content: space-between;
+
+}
 
         .image{
           display:flex;
           min-height: : 550px;
+          justify-content: space-between;
+
+}
 
     .my-story {
     display:flex;
-    min-height: : 550px;}
+    min-height: : 550px;
+    justify-content: space-between;
+
+}
     }
 
 /* Medium devices (landscape tablets, 768px and up) */
