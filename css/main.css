@@ -91,28 +91,26 @@ img {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
-  nav{
+  .nav{
     display:flex;
     flex-direction: column;
     min-height: : 550px;}
 
-  middle-image{
+      .middle-image{
+        display:flex;
+        flex-direction: column;
+        min-height: : 550px;}
+
+        .image{
+          display:flex;
+          flex-direction: column;
+          min-height: : 550px;}
+
+    .my-story {
     display:flex;
     flex-direction: column;
     min-height: : 550px;}
-
-
-image{
-  display:flex;
-  flex-direction: column;
-  min-height: : 550px;}
-
-
-my-story {
-display:flex;
-flex-direction: column;
-min-height: : 550px;}
-}
+    }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
